@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Plugin for Data::Validate::WithYAML to check email addresses\r",
+  "ABSTRACT" => "Plugin for Data::Validate::WithYAML to check email addresses",
   "AUTHOR" => "Renee Baecker <module\@renee-baecker.de>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
     "Perl::Critic" => 0,
     "Regexp::Common::Email::Address" => "1.01"
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

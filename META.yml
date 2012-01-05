@@ -1,5 +1,5 @@
 ---
-abstract: "Plugin for Data::Validate::WithYAML to check email addresses\r"
+abstract: 'Plugin for Data::Validate::WithYAML to check email addresses'
 author:
   - 'Renee Baecker <module@renee-baecker.de>'
 build_requires: {}
@@ -16,4 +16,4 @@ requires:
   Data::Validate::WithYAML: 0.08
   Perl::Critic: 0
   Regexp::Common::Email::Address: 1.01
-version: 0.01
+version: 0.02
